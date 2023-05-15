@@ -1,9 +1,4 @@
-variable "AZ" {
-    default = "us-east-1"
-}
-variable "Instancetype" {
-    default = "t2.micro"
-}
+
 
 resource "aws_key_pair" "jenkey" {
   key_name   = var.key
